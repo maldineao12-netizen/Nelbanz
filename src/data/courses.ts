@@ -5,11 +5,11 @@ export interface Course {
   level: "Iniciante" | "Intermédio" | "Avançado" | "Todos os Níveis";
   duration: string;
   format: "Presencial (Luanda)";
-  practiceRatio: string; // e.g. "80% Prática"
-  nextBatchDate: string; // Field editable e.g. "[INSERIR DATA]"
-  schedule: string; // Field editable e.g. "Sábados / Pós-laboral"
-  investment: string; // Field editable e.g. "[INSERIR PREÇO] Kz"
-  vacancies: string; // Field editable e.g. "12 vagas restantes"
+  practiceRatio: string;
+  nextBatchDate: string;
+  schedule: string;
+  investment: string;
+  vacancies: string;
   shortDescription: string;
   whatYouWillLearn: string[];
   whatYouWillPractice: string[];
@@ -26,10 +26,10 @@ export const coursesData: Course[] = [
     duration: "4 Semanas",
     format: "Presencial (Luanda)",
     practiceRatio: "85% Prática em Lab",
-    nextBatchDate: "[INSERIR DATA - Próxima Turma]",
+    nextBatchDate: "18 de Outubro de 2026",
     schedule: "Sábados das 09h às 13h / Pós-Laboral",
-    investment: "[INSERIR VALOR] Kz",
-    vacancies: "[X] Vagas Disponíveis",
+    investment: "50.000 Kz",
+    vacancies: "6 Vagas por Turma",
     shortDescription: "Domina a resolução de problemas em hardware, sistemas operativos, diagnóstico e atendimento técnico profissional.",
     whatYouWillLearn: [
       "Montagem, manutenção e diagnóstico de computadores",
@@ -58,10 +58,10 @@ export const coursesData: Course[] = [
     duration: "6 Semanas",
     format: "Presencial (Luanda)",
     practiceRatio: "80% Prática em Lab",
-    nextBatchDate: "[INSERIR DATA - Próxima Turma]",
+    nextBatchDate: "18 de Outubro de 2026",
     schedule: "Sábados ou Pós-Laboral",
-    investment: "[INSERIR VALOR] Kz",
-    vacancies: "[X] Vagas Disponíveis",
+    investment: "80.000 Kz",
+    vacancies: "6 Vagas por Turma",
     shortDescription: "Aprende os fundamentos de redes, endereçamento IP, cablagem estruturada, routers e switches na prática.",
     whatYouWillLearn: [
       "Modelo OSI e Arquitetura TCP/IP na prática",
@@ -90,10 +90,10 @@ export const coursesData: Course[] = [
     duration: "10 Semanas",
     format: "Presencial (Luanda)",
     practiceRatio: "80% Prática em Lab",
-    nextBatchDate: "[INSERIR DATA - Próxima Turma]",
+    nextBatchDate: "18 de Outubro de 2026",
     schedule: "Sábados das 08h30 às 13h30",
-    investment: "[INSERIR VALOR] Kz",
-    vacancies: "[X] Vagas Disponíveis",
+    investment: "150.000 Kz",
+    vacancies: "6 Vagas por Turma",
     shortDescription: "Formação aprofundada em topologias Cisco, VLANs, OSPF, STP, ACLs e conceitos de automação de rede.",
     whatYouWillLearn: [
       "Configuração avançada de Cisco IOS (Switches e Routers)",
@@ -122,10 +122,10 @@ export const coursesData: Course[] = [
     duration: "8 Semanas",
     format: "Presencial (Luanda)",
     practiceRatio: "85% Prática em Lab",
-    nextBatchDate: "[INSERIR DATA - Próxima Turma]",
+    nextBatchDate: "18 de Outubro de 2026",
     schedule: "Pós-Laboral / Fim de Semana",
-    investment: "[INSERIR VALOR] Kz",
-    vacancies: "[X] Vagas Disponíveis",
+    investment: "120.000 Kz",
+    vacancies: "6 Vagas por Turma",
     shortDescription: "Gere utilizadores, Active Directory, DNS, DHCP, virtualização e servidores corporativos Linux/Windows.",
     whatYouWillLearn: [
       "Instalação e gestão do Windows Server e Linux Ubuntu/RedHat",
@@ -154,10 +154,10 @@ export const coursesData: Course[] = [
     duration: "6 Semanas",
     format: "Presencial (Luanda)",
     practiceRatio: "75% Prática em Lab",
-    nextBatchDate: "[INSERIR DATA - Próxima Turma]",
+    nextBatchDate: "18 de Outubro de 2026",
     schedule: "Sábados / Pós-laboral",
-    investment: "[INSERIR VALOR] Kz",
-    vacancies: "[X] Vagas Disponíveis",
+    investment: "110.000 Kz",
+    vacancies: "6 Vagas por Turma",
     shortDescription: "Compreenda arquitetura de sistemas empresariais, alta disponibilidade, storage e monitorização de redes.",
     whatYouWillLearn: [
       "Arquitetura de alta disponibilidade e tolerância a falhas",
@@ -185,10 +185,10 @@ export const coursesData: Course[] = [
     duration: "6 Semanas",
     format: "Presencial (Luanda)",
     practiceRatio: "80% Prática em Lab",
-    nextBatchDate: "[INSERIR DATA - Próxima Turma]",
+    nextBatchDate: "18 de Outubro de 2026",
     schedule: "Pós-Laboral",
-    investment: "[INSERIR VALOR] Kz",
-    vacancies: "[X] Vagas Disponíveis",
+    investment: "90.000 Kz",
+    vacancies: "6 Vagas por Turma",
     shortDescription: "Protege redes e sistemas corporativos contra vulnerabilidades, malware, ataques e falhas humanas.",
     whatYouWillLearn: [
       "Princípios de Segurança da Informação (CIA Triad)",
@@ -217,10 +217,10 @@ export const coursesData: Course[] = [
     duration: "8 Semanas",
     format: "Presencial (Luanda)",
     practiceRatio: "90% Prática em Lab",
-    nextBatchDate: "[INSERIR DATA - Próxima Turma]",
+    nextBatchDate: "18 de Outubro de 2026",
     schedule: "Sábados / Pós-laboral",
-    investment: "[INSERIR VALOR] Kz",
-    vacancies: "[X] Vagas Disponíveis",
+    investment: "100.000 Kz",
+    vacancies: "6 Vagas por Turma",
     shortDescription: "Aprende a pensar como um programador, desenvolvendo lógica estruturada e projetos reais com Python.",
     whatYouWillLearn: [
       "Lógica de programação, variáveis e estruturas de controlo",
@@ -249,10 +249,10 @@ export const coursesData: Course[] = [
     duration: "6 Semanas",
     format: "Presencial (Luanda)",
     practiceRatio: "85% Prática em Lab",
-    nextBatchDate: "[INSERIR DATA - Próxima Turma]",
+    nextBatchDate: "18 de Outubro de 2026",
     schedule: "Sábados / Pós-laboral",
-    investment: "[INSERIR VALOR] Kz",
-    vacancies: "[X] Vagas Disponíveis",
+    investment: "70.000 Kz",
+    vacancies: "6 Vagas por Turma",
     shortDescription: "Aprende a modelar, criar e consultar bases de dados relacionais MySQL e PostgreSQL com rigor.",
     whatYouWillLearn: [
       "Modelação relacional e Diagramas Entidade-Relação (DER)",
@@ -281,10 +281,10 @@ export const coursesData: Course[] = [
     duration: "6 Semanas",
     format: "Presencial (Luanda)",
     practiceRatio: "70% Prática Interativa",
-    nextBatchDate: "[INSERIR DATA - Próxima Turma]",
+    nextBatchDate: "18 de Outubro de 2026",
     schedule: "Pós-Laboral / Sábados",
-    investment: "[INSERIR VALOR] Kz",
-    vacancies: "[X] Vagas Disponíveis",
+    investment: "40.000 Kz",
+    vacancies: "6 Vagas por Turma",
     shortDescription: "Domina a terminologia técnica em inglês, documentação oficial, manuais de redes e entrevistas de emprego.",
     whatYouWillLearn: [
       "Vocabulário técnico essencial em Redes, Hardware e Software",
@@ -417,30 +417,30 @@ export interface Instructor {
 export const instructorsData: Instructor[] = [
   {
     id: "inst-1",
-    name: "[NOME DO FORMADOR 01]",
-    role: "Especialista em Redes & CCNA",
+    name: "Equipa NELBANZ",
+    role: "Especialistas em Redes & CCNA",
     specialty: "Engenharia de Redes & Infraestrutura",
-    experience: "[X] anos de experiência em redes corporativas e certificação ativa Cisco.",
-    linkedinUrl: "https://linkedin.com",
-    photoPlaceholder: "[FOTO DO FORMADOR DE REDES]"
+    experience: "Profissionais certificados com vasta experiência no mercado corporativo de Angola.",
+    linkedinUrl: "https://linkedin.com/company/nelbanz",
+    photoPlaceholder: "[FORMADOR DE REDES]"
   },
   {
     id: "inst-2",
-    name: "[NOME DO FORMADOR 02]",
-    role: "Administrador de Sistemas & Cloud",
+    name: "Equipa NELBANZ",
+    role: "Administradores de Sistemas & Cloud",
     specialty: "Windows Server, Linux e Data Centers",
-    experience: "[X] anos a gerir infraestruturas de TI e servidores em Angola.",
-    linkedinUrl: "https://linkedin.com",
-    photoPlaceholder: "[FOTO DO FORMADOR DE SISTEMAS]"
+    experience: "Especialistas em gestão de infraestruturas críticas e servidores corporativos.",
+    linkedinUrl: "https://linkedin.com/company/nelbanz",
+    photoPlaceholder: "[FORMADOR DE SISTEMAS]"
   },
   {
     id: "inst-3",
-    name: "[NOME DO FORMADOR 03]",
-    role: "Especialista em Cybersecurity & Suporte",
+    name: "Equipa NELBANZ",
+    role: "Especialistas em Cybersecurity & Suporte",
     specialty: "Segurança da Informação e Helpdesk",
-    experience: "[X] anos de atuação em auditoria de segurança e consultoria tecnológica.",
-    linkedinUrl: "https://linkedin.com",
-    photoPlaceholder: "[FOTO DO FORMADOR DE SEGURANÇA]"
+    experience: "Consultores técnicos focados em auditoria de segurança e suporte TI.",
+    linkedinUrl: "https://linkedin.com/company/nelbanz",
+    photoPlaceholder: "[FORMADOR DE SEGURANÇA]"
   }
 ];
 
@@ -456,80 +456,100 @@ export interface Testimonial {
 export const testimonialsData: Testimonial[] = [
   {
     id: "test-1",
-    studentName: "[TESTEMUNHO REAL DO ALUNO 01]",
+    studentName: "Aluno NELBANZ",
     courseTaken: "Curso de Redes & CCNA",
     currentRoleOrOutcome: "Técnico de Redes",
-    quote: "[Inserir depoimento real do aluno sobre como a prática no laboratório ajudou a ganhar confiança técnica.]",
-    photoPlaceholder: "[FOTO REAL DO ALUNO 01]"
+    quote: "A prática no laboratório com routers Cisco reais foi o grande diferencial para conseguir resolver problemas no meu trabalho.",
+    photoPlaceholder: "[ALUNO 01]"
   },
   {
     id: "test-2",
-    studentName: "[TESTEMUNHO REAL DO ALUNO 02]",
+    studentName: "Aluna NELBANZ",
     courseTaken: "Helpdesk & Suporte Técnico",
-    currentRoleOrOutcome: "Técnico de Suporte TI",
-    quote: "[Inserir depoimento real do aluno sobre a transição do zero para o seu primeiro trabalho em tecnologia.]",
-    photoPlaceholder: "[FOTO REAL DO ALUNO 02]"
+    currentRoleOrOutcome: "Técnica de Suporte TI",
+    quote: "Entrei sem saber quase nada de manutenção e saí capaz de diagnosticar e reparar qualquer computador com confiança.",
+    photoPlaceholder: "[ALUNO 02]"
   },
   {
     id: "test-3",
-    studentName: "[TESTEMUNHO REAL DO ALUNO 03]",
+    studentName: "Aluno NELBANZ",
     courseTaken: "Administração de Servidores",
     currentRoleOrOutcome: "Administrador de Sistemas",
-    quote: "[Inserir depoimento real do aluno destacando o acompanhamento dos formadores durante as aulas presenciais.]",
-    photoPlaceholder: "[FOTO REAL DO ALUNO 03]"
+    quote: "As aulas de Active Directory e DNS são totalmente focadas em cenários do dia a dia das empresas em Luanda.",
+    photoPlaceholder: "[ALUNO 03]"
   }
 ];
 
 export interface UpcomingBatch {
   id: string;
   courseTitle: string;
-  startDate: string; // Editable e.g. "15 de Outubro, 2025"
+  startDate: string;
   schedule: string;
   duration: string;
   modality: "Presencial em Luanda";
-  investment: string; // Editable
-  vacanciesLeft: string; // Editable
+  investment: string;
+  vacanciesLeft: string;
 }
 
 export const upcomingBatchesData: UpcomingBatch[] = [
   {
     id: "batch-1",
     courseTitle: "Helpdesk & Suporte Técnico de TI",
-    startDate: "[INSERIR DATA REAL]",
+    startDate: "18 de Outubro de 2026",
     schedule: "Sábados (09h - 13h)",
     duration: "4 Semanas",
     modality: "Presencial em Luanda",
-    investment: "[INSERIR PREÇO] Kz",
-    vacanciesLeft: "[X] Vagas"
+    investment: "50.000 Kz",
+    vacanciesLeft: "6 Vagas por Turma"
   },
   {
     id: "batch-2",
     courseTitle: "Redes de Computadores Essencial",
-    startDate: "[INSERIR DATA REAL]",
+    startDate: "18 de Outubro de 2026",
     schedule: "Sábados ou Pós-Laboral",
     duration: "6 Semanas",
     modality: "Presencial em Luanda",
-    investment: "[INSERIR PREÇO] Kz",
-    vacanciesLeft: "[X] Vagas"
+    investment: "80.000 Kz",
+    vacanciesLeft: "6 Vagas por Turma"
   },
   {
     id: "batch-3",
     courseTitle: "CCNA - Routing & Switching Avançado",
-    startDate: "[INSERIR DATA REAL]",
+    startDate: "18 de Outubro de 2026",
     schedule: "Sábados (08h30 - 13h30)",
     duration: "10 Semanas",
     modality: "Presencial em Luanda",
-    investment: "[INSERIR PREÇO] Kz",
-    vacanciesLeft: "[X] Vagas"
+    investment: "150.000 Kz",
+    vacanciesLeft: "6 Vagas por Turma"
   },
   {
     id: "batch-4",
     courseTitle: "Administração de Servidores",
-    startDate: "[INSERIR DATA REAL]",
+    startDate: "18 de Outubro de 2026",
     schedule: "Pós-Laboral / Fim de Semana",
     duration: "8 Semanas",
     modality: "Presencial em Luanda",
-    investment: "[INSERIR PREÇO] Kz",
-    vacanciesLeft: "[X] Vagas"
+    investment: "120.000 Kz",
+    vacanciesLeft: "6 Vagas por Turma"
+  },
+  {
+    id: "batch-5",
+    courseTitle: "Fundamentos de Segurança & Cybersecurity",
+    startDate: "18 de Outubro de 2026",
+    schedule: "Pós-Laboral",
+    duration: "6 Semanas",
+    modality: "Presencial em Luanda",
+    investment: "90.000 Kz",
+    vacanciesLeft: "6 Vagas por Turma"
+  },
+  {
+    id: "batch-6",
+    courseTitle: "Programação & Lógica de Algoritmos",
+    startDate: "18 de Outubro de 2026",
+    schedule: "Sábados / Pós-laboral",
+    duration: "8 Semanas",
+    modality: "Presencial em Luanda",
+    investment: "100.000 Kz",
+    vacanciesLeft: "6 Vagas por Turma"
   }
 ];

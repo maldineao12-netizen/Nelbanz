@@ -12,22 +12,22 @@ export const faqsData: FAQItem[] = [
   },
   {
     question: "Os cursos são 100% presenciais em Luanda?",
-    answer: "Sim. A metodologia da NELBANZ é totalmente orientada à prática intensiva e ao contacto direto com equipamentos reais (routers, switches, servidores e bancadas de teste) nas nossas instalações em Luanda.",
+    answer: "Sim. A metodologia da NELBANZ é totalmente orientada à prática intensiva e ao contacto direto com equipamentos reais (routers, switches, servidores e bancadas de teste) nas nossas instalações na Zamba 2 - Bairro Azul, perto do cine Tivoli, casa nº 106.",
     category: "Cursos"
   },
   {
     question: "Onde ficam localizadas as instalações da NELBANZ?",
-    answer: "Estamos localizados em Luanda, Angola. Pode consultar a localização exata e mapa interativo na secção de contactos do site ou falar com a nossa equipa via WhatsApp.",
+    answer: "Estamos localizados na Zamba 2 - Bairro Azul, perto do cine Tivoli, casa nº 106 em Luanda, Angola. Pode contactar a nossa equipa via WhatsApp (+244 950 502 332) para direções e apoio.",
     category: "Geral"
   },
   {
-    question: "Qual é a duração média das formações?",
-    answer: "A duração varia entre 4 a 10 semanas, dependendo do percurso e do nível do curso. As aulas são organizadas de forma intensiva em horários de fim de semana (sábados) ou pós-laboral para se ajustarem à sua rotina.",
+    question: "Qual é a duração média e início das próximas turmas?",
+    answer: "A duração varia entre 4 a 10 semanas. Todas as próximas turmas têm início marcado para o dia 18 de Outubro de 2026 com o limite máximo de 6 vagas por turma para garantir ensino personalizado.",
     category: "Cursos"
   },
   {
     question: "Quanto custam as formações e como funcionam os pagamentos?",
-    answer: "Os valores variam conforme o curso selecionado. [INSERIR DADO DE PREÇOS REAIS]. Para consultar o investimento exato de cada turma, basta clicar em 'Ver Detalhes' no curso pretendido ou contactar a nossa equipa no WhatsApp.",
+    answer: "Os valores são transparentes: Helpdesk (50.000 Kz), Redes Essencial (80.000 Kz), CCNA (150.000 Kz), Servidores (120.000 Kz), Cybersecurity (90.000 Kz), Programação (100.000 Kz), SQL (70.000 Kz) e Inglês Técnico (40.000 Kz).",
     category: "Pagamentos"
   },
   {
@@ -37,7 +37,7 @@ export const faqsData: FAQItem[] = [
   },
   {
     question: "Posso pagar a formação em parcelas?",
-    answer: "Oferecemos modalidades flexíveis de pagamento. [INSERIR POLÍTICA DE PARCELAMENTO REAL]. Contacte o nosso consultor no WhatsApp para conhecer o plano de propinas disponível.",
+    answer: "Oferecemos modalidades flexíveis de pagamento. Contacte o nosso consultor no WhatsApp (+244 950 502 332) para conhecer as opções disponíveis.",
     category: "Pagamentos"
   },
   {
@@ -47,17 +47,17 @@ export const faqsData: FAQItem[] = [
   },
   {
     question: "Que curso devo escolher se sou totalmente iniciante?",
-    answer: "Recomendamos o Percurso 01 – COMEÇAR EM TI, que inclui as bases de Helpdesk e Redes de Computadores. Se tiver dúvidas, clica em 'Ajuda-me a Escolher' no site e um dos nossos orientadores irá guiar-te.",
+    answer: "Recomendamos o Percurso 01 – COMEÇAR EM TI, que inclui Helpdesk (50.000 Kz) e Redes Essencial (80.000 Kz). Se tiver dúvidas, clica em 'Ajuda-me a Escolher' no site e um dos nossos orientadores irá guiar-te.",
     category: "Inscrições"
   },
   {
     question: "Posso falar com alguém antes de me matricular?",
-    answer: "Com certeza! Pode falar diretamente com um consultor técnico via WhatsApp a qualquer momento para tirar todas as dúvidas sobre conteúdos, horários e perspetivas de evolução.",
+    answer: "Com certeza! Pode falar diretamente com a nossa equipa via WhatsApp no +244 950 502 332 a qualquer momento para tirar todas as dúvidas.",
     category: "Geral"
   },
   {
     question: "Existem formações customizadas para empresas?",
-    answer: "Sim. Desenvolvemos programas de capacitação tecnológica sob medida para equipas de TI de empresas corporativas em Angola. Fale connosco através do email corporativo ou WhatsApp.",
+    answer: "Sim. Desenvolvemos programas de capacitação tecnológica sob medida para equipas de TI de empresas corporativas em Angola. Fale connosco através do email contacto@nelbanz.ao ou WhatsApp.",
     category: "Cursos"
   },
   {
