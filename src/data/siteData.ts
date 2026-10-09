@@ -52,7 +52,7 @@ export const siteConfig = {
       name: "Elton Manuel",
       role: "Formador de Inglês Técnico para TI",
       bio: "Especialista no ensino de língua inglesa aplicada ao ambiente corporativo de tecnologia. Possui 7 anos de experiência a capacitar profissionais de TI para documentação e certificações internacionais.",
-      image: "",
+      image: "/images/elton-manuel.jpg",
       badge: "Inglês Técnico",
       specialties: ["Technical English", "IT Documentation", "Vocabulário Técnico"]
     },
@@ -61,7 +61,7 @@ export const siteConfig = {
       name: "Evaristo Ambriz",
       role: "Especialista em Cybersecurity",
       bio: "Especialista em segurança da informação, focado em proteção de infraestruturas críticas, simulação de vulnerabilidades e testes de invasão orientados ao mercado corporativo.",
-      image: "",
+      image: "/images/evaristo-ambriz.jpg",
       badge: "Cybersecurity",
       specialties: ["Análise de Vulnerabilidade", "Proteção de Redes", "Ethical Hacking"]
     },
@@ -70,7 +70,7 @@ export const siteConfig = {
       name: "Henrique Vieira",
       role: "Formador Técnico em Infraestrutura",
       bio: "Com 5 anos de experiência na capacitação e suporte de infraestruturas de TI, apoia os alunos na consolidação de conceitos fundamentais e práticas de bancada.",
-      image: "",
+      image: "/images/lab-photo.jpg",
       badge: "Sistemas & Suporte",
       specialties: ["Hardware", "Sistemas Operativos", "Bancada Prática"]
     }
@@ -83,14 +83,14 @@ export const siteConfig = {
       name: "Manuel Agostinho",
       course: "Redes de Computadores & CCNA",
       quote: "Antes da NELBANZ eu só entendia a teoria dos livros. No laboratório configurei routers e switches reais, o que me deu total segurança para ingressar no mercado de TI.",
-      image: "/images/lab-students-work.jpg"
+      image: "/images/turma-passada-1.jpg"
     },
     {
       id: "jose-afonso",
       name: "José Afonso",
       course: "Helpdesk & Suporte Técnico",
       quote: "Nunca tinha mexido profissionalmente em TI. A didática prática e o apoio do formador fizeram toda a diferença. Hoje resolvo problemas com autonomia.",
-      image: "/images/lab-active-session.jpg"
+      image: "/images/turma-passada-2.jpg"
     },
     {
       id: "carla-antonio",
@@ -106,7 +106,12 @@ export const siteConfig = {
     {
       title: "Laboratório de Redes e Infraestrutura",
       description: "Equipamentos e topologias configuradas diretamente pelos alunos em aulas presenciais.",
-      src: "/images/nelbanz-lab-banner.jpg"
+      src: "/images/turma-passada-2.jpg"
+    },
+    {
+      title: "Turmas Presenciais Interativas",
+      description: "Formações focadas no trabalho de equipa e na aplicação direta em bancada.",
+      src: "/images/turma-passada-1.jpg"
     },
     {
       title: "Prática Dirigida de Bancada",
@@ -117,11 +122,6 @@ export const siteConfig = {
       title: "Salas Climatizadas e Estações Individuais",
       description: "Ambiente moderno focado no rendimento técnico com monitores dedicados e servidores virtuais.",
       src: "/images/lab-classroom-view.jpg"
-    },
-    {
-      title: "Aulas Interativas com Formadores Experientes",
-      description: "Acompanhamento individualizado durante os exercícios e projetos de laboratório.",
-      src: "/images/lab-active-session.jpg"
     }
   ],
 
