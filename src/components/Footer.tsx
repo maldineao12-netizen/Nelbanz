@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { siteConfig, navLinks } from "@/data/siteData";
-import { MapPin, Phone, Mail, Clock, Facebook, Instagram, Linkedin, MessageSquare } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Facebook, Instagram, Linkedin, MessageSquare, Twitter } from "lucide-react";
 import { getWhatsAppUrl } from "@/lib/whatsapp";
 
 export default function Footer() {
@@ -18,7 +18,7 @@ export default function Footer() {
             <Link href="#hero" className="flex items-center gap-3">
               <div className="relative w-10 h-10 rounded-lg overflow-hidden bg-[#080A45] p-1 border border-[#0878E8]/40">
                 <Image
-                  src="/images/nelbanz-logo-original.jpg"
+                  src="/images/nelbanz-brand-logo.jpg"
                   alt="NELBANZ Logo"
                   fill
                   className="object-contain"
@@ -44,13 +44,16 @@ export default function Footer() {
 
             {/* Social Links */}
             <div className="flex items-center gap-3 pt-2">
-              <a href={siteConfig.socialLinks.facebook} target="_blank" rel="noreferrer" className="p-2 rounded-lg bg-[#0A102A] border border-[#1E295D] hover:border-[#0878E8] text-slate-400 hover:text-white transition-colors">
+              <a href={siteConfig.socialLinks.x} target="_blank" rel="noreferrer" title="X (Twitter)" className="p-2 rounded-lg bg-[#0A102A] border border-[#1E295D] hover:border-[#0878E8] text-slate-400 hover:text-white transition-colors">
+                <Twitter className="w-4 h-4" />
+              </a>
+              <a href={siteConfig.socialLinks.facebook} target="_blank" rel="noreferrer" title="Facebook" className="p-2 rounded-lg bg-[#0A102A] border border-[#1E295D] hover:border-[#0878E8] text-slate-400 hover:text-white transition-colors">
                 <Facebook className="w-4 h-4" />
               </a>
-              <a href={siteConfig.socialLinks.instagram} target="_blank" rel="noreferrer" className="p-2 rounded-lg bg-[#0A102A] border border-[#1E295D] hover:border-[#0878E8] text-slate-400 hover:text-white transition-colors">
+              <a href={siteConfig.socialLinks.instagram} target="_blank" rel="noreferrer" title="Instagram" className="p-2 rounded-lg bg-[#0A102A] border border-[#1E295D] hover:border-[#0878E8] text-slate-400 hover:text-white transition-colors">
                 <Instagram className="w-4 h-4" />
               </a>
-              <a href={siteConfig.socialLinks.linkedin} target="_blank" rel="noreferrer" className="p-2 rounded-lg bg-[#0A102A] border border-[#1E295D] hover:border-[#0878E8] text-slate-400 hover:text-white transition-colors">
+              <a href={siteConfig.socialLinks.linkedin} target="_blank" rel="noreferrer" title="LinkedIn" className="p-2 rounded-lg bg-[#0A102A] border border-[#1E295D] hover:border-[#0878E8] text-slate-400 hover:text-white transition-colors">
                 <Linkedin className="w-4 h-4" />
               </a>
             </div>

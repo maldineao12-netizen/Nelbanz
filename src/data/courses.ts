@@ -27,7 +27,7 @@ export const coursesData: Course[] = [
     format: "Presencial (Luanda)",
     practiceRatio: "85% Prática em Lab",
     nextBatchDate: "18 de Outubro de 2026",
-    schedule: "Sábados das 09h às 13h / Pós-Laboral",
+    schedule: "Mon-Fri (08h-21h30 em turnos) / Sábados",
     investment: "50.000 Kz",
     vacancies: "6 Vagas por Turma",
     shortDescription: "Domina a resolução de problemas em hardware, sistemas operativos, diagnóstico e atendimento técnico profissional.",
@@ -59,7 +59,7 @@ export const coursesData: Course[] = [
     format: "Presencial (Luanda)",
     practiceRatio: "80% Prática em Lab",
     nextBatchDate: "18 de Outubro de 2026",
-    schedule: "Sábados ou Pós-Laboral",
+    schedule: "Mon-Fri (Turnos) / Sábados (09h-17h)",
     investment: "80.000 Kz",
     vacancies: "6 Vagas por Turma",
     shortDescription: "Aprende os fundamentos de redes, endereçamento IP, cablagem estruturada, routers e switches na prática.",
@@ -83,18 +83,49 @@ export const coursesData: Course[] = [
     isFeatured: true
   },
   {
+    id: "ingles-tecnico-ti",
+    title: "Inglês Técnico para Profissionais de TI",
+    category: "Especialização",
+    level: "Todos os Níveis",
+    duration: "6 Semanas",
+    format: "Presencial (Luanda)",
+    practiceRatio: "70% Prática Interativa",
+    nextBatchDate: "18 de Outubro de 2026",
+    schedule: "Mon-Fri (Pós-laboral) / Sábados",
+    investment: "40.000 Kz",
+    vacancies: "6 Vagas por Turma",
+    shortDescription: "Domina a terminologia técnica em inglês, documentação oficial, manuais de redes e entrevistas de emprego.",
+    whatYouWillLearn: [
+      "Vocabulário técnico essencial em Redes, Hardware e Software",
+      "Leitura fluida de documentação técnica oficial (Cisco, Microsoft, Linux)",
+      "Comunicação técnica escrita em tickets e relatórios",
+      "Preparação para entrevistas de emprego na área de tecnologia",
+      "Interpretação rápida de mensagens de erro e logs de sistemas"
+    ],
+    whatYouWillPractice: [
+      "Simulação de reuniões técnicas e chamadas de suporte em inglês",
+      "Tradução e aplicação de tutoriais oficiais de tecnologia",
+      "Elaboração de currículo técnico em inglês"
+    ],
+    forWho: [
+      "Profissionais de TI que pretendem trabalhar com clientes multinacionais",
+      "Estudantes que querem compreender certificações internacionais em inglês"
+    ],
+    isFeatured: true
+  },
+  {
     id: "ccna-cisco",
-    title: "CCNA - Routing & Switching Avançado",
+    title: "Treinamento CCNAv7 200-301",
     category: "Infraestrutura",
     level: "Intermédio",
     duration: "10 Semanas",
     format: "Presencial (Luanda)",
     practiceRatio: "80% Prática em Lab",
-    nextBatchDate: "18 de Outubro de 2026",
-    schedule: "Sábados das 08h30 às 13h30",
+    nextBatchDate: "5 de Novembro de 2026",
+    schedule: "Mon-Fri (Turnos) / Sábados (09h-17h)",
     investment: "150.000 Kz",
     vacancies: "6 Vagas por Turma",
-    shortDescription: "Formação aprofundada em topologias Cisco, VLANs, OSPF, STP, ACLs e conceitos de automação de rede.",
+    shortDescription: "Formação completa CCNA 1, 2 e 3 em topologias Cisco, VLANs, OSPF, STP, ACLs e automação de rede.",
     whatYouWillLearn: [
       "Configuração avançada de Cisco IOS (Switches e Routers)",
       "VLANs, Trunking 802.1Q, Inter-VLAN Routing e Spanning Tree (STP)",
@@ -122,8 +153,8 @@ export const coursesData: Course[] = [
     duration: "8 Semanas",
     format: "Presencial (Luanda)",
     practiceRatio: "85% Prática em Lab",
-    nextBatchDate: "18 de Outubro de 2026",
-    schedule: "Pós-Laboral / Fim de Semana",
+    nextBatchDate: "5 de Novembro de 2026",
+    schedule: "Mon-Fri (Turnos) / Sábados",
     investment: "120.000 Kz",
     vacancies: "6 Vagas por Turma",
     shortDescription: "Gere utilizadores, Active Directory, DNS, DHCP, virtualização e servidores corporativos Linux/Windows.",
@@ -136,7 +167,7 @@ export const coursesData: Course[] = [
     ],
     whatYouWillPractice: [
       "Implementação do zero de um domínio empresarial completo",
-      "Configuração de politicas de segurança e utilizadores corporativos",
+      "Configuração de políticas de segurança e utilizadores corporativos",
       "Recuperação de desastres e restauração de cópias de segurança"
     ],
     forWho: [
@@ -147,37 +178,6 @@ export const coursesData: Course[] = [
     isFeatured: true
   },
   {
-    id: "sistemas-infraestrutura",
-    title: "Sistemas & Infraestrutura Tecnológica",
-    category: "Sistemas",
-    level: "Intermédio",
-    duration: "6 Semanas",
-    format: "Presencial (Luanda)",
-    practiceRatio: "75% Prática em Lab",
-    nextBatchDate: "18 de Outubro de 2026",
-    schedule: "Sábados / Pós-laboral",
-    investment: "110.000 Kz",
-    vacancies: "6 Vagas por Turma",
-    shortDescription: "Compreenda arquitetura de sistemas empresariais, alta disponibilidade, storage e monitorização de redes.",
-    whatYouWillLearn: [
-      "Arquitetura de alta disponibilidade e tolerância a falhas",
-      "Sistemas de Armazenamento (SAN, NAS, RAID)",
-      "Monitorização de infraestrutura com Zabbix / Grafana",
-      "Conceitos de Cloud Computing e infraestrutura híbrida",
-      "Planos de Continuidade de Negócio e Disaster Recovery"
-    ],
-    whatYouWillPractice: [
-      "Configuração de arranjos RAID e storage de rede",
-      "Criação de dashboards de monitorização de servidores em tempo real",
-      "Simulação de falhas críticas e recuperação de serviços"
-    ],
-    forWho: [
-      "Profissionais de infraestrutura que pretendem visão holística de sistemas",
-      "Gerentes e coordenadores de TI em crescimento"
-    ],
-    isFeatured: false
-  },
-  {
     id: "seguranca-cybersecurity",
     title: "Fundamentos de Segurança & Cybersecurity",
     category: "Especialização",
@@ -185,8 +185,8 @@ export const coursesData: Course[] = [
     duration: "6 Semanas",
     format: "Presencial (Luanda)",
     practiceRatio: "80% Prática em Lab",
-    nextBatchDate: "18 de Outubro de 2026",
-    schedule: "Pós-Laboral",
+    nextBatchDate: "5 de Novembro de 2026",
+    schedule: "Mon-Fri (Turnos) / Sábados",
     investment: "90.000 Kz",
     vacancies: "6 Vagas por Turma",
     shortDescription: "Protege redes e sistemas corporativos contra vulnerabilidades, malware, ataques e falhas humanas.",
@@ -210,6 +210,37 @@ export const coursesData: Course[] = [
     isFeatured: true
   },
   {
+    id: "pentest-profissional",
+    title: "Pentest Profissional & Testes de Invasão",
+    category: "Especialização",
+    level: "Avançado",
+    duration: "6 Semanas",
+    format: "Presencial (Luanda)",
+    practiceRatio: "85% Prática em Lab",
+    nextBatchDate: "5 de Novembro de 2026",
+    schedule: "Mon-Fri (Pós-laboral) / Sábados",
+    investment: "110.000 Kz",
+    vacancies: "6 Vagas por Turma",
+    shortDescription: "Aprende técnicas ofensivas de Ethical Hacking, identificação de falhas em sistemas e elaboração de relatórios técnicos.",
+    whatYouWillLearn: [
+      "Metodologias de Pentesting (OWASP, OSSTMM)",
+      "Reconhecimento, varredura de portas e enumeração com Nmap",
+      "Exploração de vulnerabilidades web e sistemas com Metasploit",
+      "Análise de tráfego, man-in-the-middle e quebra de credenciais",
+      "Elaboração de relatórios de auditoria e mitigação"
+    ],
+    whatYouWillPractice: [
+      "Testes práticos em máquinas virtuais vulneráveis (CTF/Lab)",
+      "Simulação de ataque e defesa de infraestruturas locais",
+      "Apresentação de relatório executivo e técnico de vulnerabilidades"
+    ],
+    forWho: [
+      "Profissionais de cibersegurança e administradores de sistemas",
+      "Técnicos de TI interessados em segurança ofensiva ética"
+    ],
+    isFeatured: false
+  },
+  {
     id: "programacao-algoritmos",
     title: "Programação & Lógica de Algoritmos",
     category: "Especialização",
@@ -217,8 +248,8 @@ export const coursesData: Course[] = [
     duration: "8 Semanas",
     format: "Presencial (Luanda)",
     practiceRatio: "90% Prática em Lab",
-    nextBatchDate: "18 de Outubro de 2026",
-    schedule: "Sábados / Pós-laboral",
+    nextBatchDate: "5 de Novembro de 2026",
+    schedule: "Mon-Fri (Turnos) / Sábados",
     investment: "100.000 Kz",
     vacancies: "6 Vagas por Turma",
     shortDescription: "Aprende a pensar como um programador, desenvolvendo lógica estruturada e projetos reais com Python.",
@@ -249,8 +280,8 @@ export const coursesData: Course[] = [
     duration: "6 Semanas",
     format: "Presencial (Luanda)",
     practiceRatio: "85% Prática em Lab",
-    nextBatchDate: "18 de Outubro de 2026",
-    schedule: "Sábados / Pós-laboral",
+    nextBatchDate: "5 de Novembro de 2026",
+    schedule: "Mon-Fri (Turnos) / Sábados",
     investment: "70.000 Kz",
     vacancies: "6 Vagas por Turma",
     shortDescription: "Aprende a modelar, criar e consultar bases de dados relacionais MySQL e PostgreSQL com rigor.",
@@ -270,37 +301,6 @@ export const coursesData: Course[] = [
       "Desenvolvedores iniciantes e analistas de dados",
       "Técnicos de suporte que trabalham com sistemas de gestão",
       "Estudantes de gestão de informação"
-    ],
-    isFeatured: false
-  },
-  {
-    id: "ingles-tecnico-ti",
-    title: "Inglês Técnico para Profissionais de TI",
-    category: "Especialização",
-    level: "Todos os Níveis",
-    duration: "6 Semanas",
-    format: "Presencial (Luanda)",
-    practiceRatio: "70% Prática Interativa",
-    nextBatchDate: "18 de Outubro de 2026",
-    schedule: "Pós-Laboral / Sábados",
-    investment: "40.000 Kz",
-    vacancies: "6 Vagas por Turma",
-    shortDescription: "Domina a terminologia técnica em inglês, documentação oficial, manuais de redes e entrevistas de emprego.",
-    whatYouWillLearn: [
-      "Vocabulário técnico essencial em Redes, Hardware e Software",
-      "Leitura fluida de documentação técnica oficial (Cisco, Microsoft, Linux)",
-      "Comunicação técnica escrita em tickets e relatórios",
-      "Preparação para entrevistas de emprego na área de tecnologia",
-      "Interpretação rápida de mensagens de erro e logs de sistemas"
-    ],
-    whatYouWillPractice: [
-      "Simulação de reuniões técnicas e chamadas de suporte em inglês",
-      "Tradução e aplicação de tutoriais oficiais de tecnologia",
-      "Elaboração de currículo técnico em inglês"
-    ],
-    forWho: [
-      "Profissionais de TI que pretendem trabalhar com clientes multinacionais",
-      "Estudantes que querem compreender certificações internacionais em inglês"
     ],
     isFeatured: false
   }
@@ -332,7 +332,7 @@ export const learningPathsData: LearningPath[] = [
     title: "INFRAESTRUTURA & REDES",
     targetAudience: "Para quem quer trabalhar com redes corporativas",
     description: "Especialização focada na arquitetura, encaminhamento, comutação de redes e certificações internacionais.",
-    coursesIncluded: ["Redes de Computadores Essencial", "CCNA - Routing & Switching Avançado", "Segurança & Cybersecurity"],
+    coursesIncluded: ["Redes de Computadores Essencial", "Treinamento CCNAv7 200-301", "Segurança & Cybersecurity"],
     ctaText: "EXPLORAR PERCURSO"
   },
   {
@@ -350,7 +350,7 @@ export const learningPathsData: LearningPath[] = [
     title: "TECNOLOGIA & ESPECIALIZAÇÃO",
     targetAudience: "Para quem procura desenvolvimento e diferenciação",
     description: "Para profissionais que querem expandir para programação, cibersegurança e automação de processos tecnológicos.",
-    coursesIncluded: ["Programação & Lógica de Algoritmos", "Segurança & Cybersecurity", "Bases de Dados SQL"],
+    coursesIncluded: ["Programação & Lógica de Algoritmos", "Pentest Profissional", "Bases de Dados SQL"],
     ctaText: "EXPLORAR ESPECIALIZAÇÃO"
   }
 ];
@@ -373,7 +373,7 @@ export const practicalProjectsData: PracticalProject[] = [
     objective: "Projetar e configurar a infraestrutura de rede para uma empresa com 3 filiais interconnectadas.",
     technologies: ["Cisco Routers", "Switches L2/L3", "OSPF", "VLANs", "ACLs"],
     result: "Comunicação segura entre filiais com redundância de links e isolamento de tráfego administrativo.",
-    imagePlaceholderText: "[FOTO REAL / TOPOLOGIA DE REDE NO LAB]"
+    imagePlaceholderText: "/images/nelbanz-lab-banner.jpg"
   },
   {
     id: "proj-2",
@@ -382,7 +382,7 @@ export const practicalProjectsData: PracticalProject[] = [
     objective: "Implementar um servidor central com Active Directory, políticas de grupo e serviços de ficheiros.",
     technologies: ["Windows Server", "Active Directory", "DNS", "DHCP", "Hyper-V"],
     result: "Ambiente empresarial com controlo centralizado de acessos, cópias automáticas e permissões por departamento.",
-    imagePlaceholderText: "[FOTO REAL / SERVIDORES E RACK NO LAB]"
+    imagePlaceholderText: "/images/lab-classroom-view.jpg"
   },
   {
     id: "proj-3",
@@ -391,7 +391,7 @@ export const practicalProjectsData: PracticalProject[] = [
     objective: "Simular ataques de rede e implementar regras de firewall para proteger o tráfego corporativo.",
     technologies: ["pfSense", "Wireshark", "Firewall Rules", "VPN IPSec", "IDS/IPS"],
     result: "Relatório de auditoria de vulnerabilidades resolvido com bloqueio ativo de ameaças externas.",
-    imagePlaceholderText: "[FOTO REAL / PAINEL DE MONITORIZAÇÃO E FIREWALL]"
+    imagePlaceholderText: "/images/lab-students-work.jpg"
   },
   {
     id: "proj-4",
@@ -400,83 +400,7 @@ export const practicalProjectsData: PracticalProject[] = [
     objective: "Desenvolver um script para automatizar a verificação do estado dos servidores e envio de alertas.",
     technologies: ["Python", "Git", "REST APIs", "SQL", "Linux Bash"],
     result: "Sistema automatizado que reduz o tempo de diagnósticos de rotina de horas para poucos segundos.",
-    imagePlaceholderText: "[FOTO REAL / CÓDIGO E TERMINAL DE PROGRAMAÇÃO]"
-  }
-];
-
-export interface Instructor {
-  id: string;
-  name: string;
-  role: string;
-  specialty: string;
-  experience: string;
-  linkedinUrl?: string;
-  photoPlaceholder: string;
-}
-
-export const instructorsData: Instructor[] = [
-  {
-    id: "inst-1",
-    name: "Equipa NELBANZ",
-    role: "Especialistas em Redes & CCNA",
-    specialty: "Engenharia de Redes & Infraestrutura",
-    experience: "Profissionais certificados com vasta experiência no mercado corporativo de Angola.",
-    linkedinUrl: "https://linkedin.com/company/nelbanz",
-    photoPlaceholder: "[FORMADOR DE REDES]"
-  },
-  {
-    id: "inst-2",
-    name: "Equipa NELBANZ",
-    role: "Administradores de Sistemas & Cloud",
-    specialty: "Windows Server, Linux e Data Centers",
-    experience: "Especialistas em gestão de infraestruturas críticas e servidores corporativos.",
-    linkedinUrl: "https://linkedin.com/company/nelbanz",
-    photoPlaceholder: "[FORMADOR DE SISTEMAS]"
-  },
-  {
-    id: "inst-3",
-    name: "Equipa NELBANZ",
-    role: "Especialistas em Cybersecurity & Suporte",
-    specialty: "Segurança da Informação e Helpdesk",
-    experience: "Consultores técnicos focados em auditoria de segurança e suporte TI.",
-    linkedinUrl: "https://linkedin.com/company/nelbanz",
-    photoPlaceholder: "[FORMADOR DE SEGURANÇA]"
-  }
-];
-
-export interface Testimonial {
-  id: string;
-  studentName: string;
-  courseTaken: string;
-  currentRoleOrOutcome: string;
-  quote: string;
-  photoPlaceholder: string;
-}
-
-export const testimonialsData: Testimonial[] = [
-  {
-    id: "test-1",
-    studentName: "Aluno NELBANZ",
-    courseTaken: "Curso de Redes & CCNA",
-    currentRoleOrOutcome: "Técnico de Redes",
-    quote: "A prática no laboratório com routers Cisco reais foi o grande diferencial para conseguir resolver problemas no meu trabalho.",
-    photoPlaceholder: "[ALUNO 01]"
-  },
-  {
-    id: "test-2",
-    studentName: "Aluna NELBANZ",
-    courseTaken: "Helpdesk & Suporte Técnico",
-    currentRoleOrOutcome: "Técnica de Suporte TI",
-    quote: "Entrei sem saber quase nada de manutenção e saí capaz de diagnosticar e reparar qualquer computador com confiança.",
-    photoPlaceholder: "[ALUNO 02]"
-  },
-  {
-    id: "test-3",
-    studentName: "Aluno NELBANZ",
-    courseTaken: "Administração de Servidores",
-    currentRoleOrOutcome: "Administrador de Sistemas",
-    quote: "As aulas de Active Directory e DNS são totalmente focadas em cenários do dia a dia das empresas em Luanda.",
-    photoPlaceholder: "[ALUNO 03]"
+    imagePlaceholderText: "/images/lab-active-session.jpg"
   }
 ];
 
@@ -496,7 +420,7 @@ export const upcomingBatchesData: UpcomingBatch[] = [
     id: "batch-1",
     courseTitle: "Helpdesk & Suporte Técnico de TI",
     startDate: "18 de Outubro de 2026",
-    schedule: "Sábados (09h - 13h)",
+    schedule: "Mon-Fri / Sábados",
     duration: "4 Semanas",
     modality: "Presencial em Luanda",
     investment: "50.000 Kz",
@@ -506,7 +430,7 @@ export const upcomingBatchesData: UpcomingBatch[] = [
     id: "batch-2",
     courseTitle: "Redes de Computadores Essencial",
     startDate: "18 de Outubro de 2026",
-    schedule: "Sábados ou Pós-Laboral",
+    schedule: "Mon-Fri / Sábados",
     duration: "6 Semanas",
     modality: "Presencial em Luanda",
     investment: "80.000 Kz",
@@ -514,42 +438,42 @@ export const upcomingBatchesData: UpcomingBatch[] = [
   },
   {
     id: "batch-3",
-    courseTitle: "CCNA - Routing & Switching Avançado",
+    courseTitle: "Inglês Técnico para Profissionais de TI",
     startDate: "18 de Outubro de 2026",
-    schedule: "Sábados (08h30 - 13h30)",
+    schedule: "Pós-Laboral / Sábados",
+    duration: "6 Semanas",
+    modality: "Presencial em Luanda",
+    investment: "40.000 Kz",
+    vacanciesLeft: "6 Vagas por Turma"
+  },
+  {
+    id: "batch-4",
+    courseTitle: "Treinamento CCNAv7 200-301",
+    startDate: "5 de Novembro de 2026",
+    schedule: "Mon-Fri / Sábados",
     duration: "10 Semanas",
     modality: "Presencial em Luanda",
     investment: "150.000 Kz",
     vacanciesLeft: "6 Vagas por Turma"
   },
   {
-    id: "batch-4",
-    courseTitle: "Administração de Servidores",
-    startDate: "18 de Outubro de 2026",
-    schedule: "Pós-Laboral / Fim de Semana",
+    id: "batch-5",
+    courseTitle: "Administração de Servidores Windows & Linux",
+    startDate: "5 de Novembro de 2026",
+    schedule: "Mon-Fri / Sábados",
     duration: "8 Semanas",
     modality: "Presencial em Luanda",
     investment: "120.000 Kz",
     vacanciesLeft: "6 Vagas por Turma"
   },
   {
-    id: "batch-5",
+    id: "batch-6",
     courseTitle: "Fundamentos de Segurança & Cybersecurity",
-    startDate: "18 de Outubro de 2026",
-    schedule: "Pós-Laboral",
+    startDate: "5 de Novembro de 2026",
+    schedule: "Pós-Laboral / Sábados",
     duration: "6 Semanas",
     modality: "Presencial em Luanda",
     investment: "90.000 Kz",
-    vacanciesLeft: "6 Vagas por Turma"
-  },
-  {
-    id: "batch-6",
-    courseTitle: "Programação & Lógica de Algoritmos",
-    startDate: "18 de Outubro de 2026",
-    schedule: "Sábados / Pós-laboral",
-    duration: "8 Semanas",
-    modality: "Presencial em Luanda",
-    investment: "100.000 Kz",
     vacanciesLeft: "6 Vagas por Turma"
   }
 ];

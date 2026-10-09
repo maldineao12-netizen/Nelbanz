@@ -1,6 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
+import { siteConfig } from "@/data/siteData";
 import { Network, Server, Cable, Monitor, Activity, ShieldAlert, Wifi } from "lucide-react";
 
 export default function Lab() {
@@ -37,10 +39,10 @@ export default function Lab() {
       <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-96 h-96 bg-[#0878E8]/10 rounded-full blur-[100px] pointer-events-none" />
       <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-96 h-96 bg-[#00D2FF]/10 rounded-full blur-[100px] pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-16">
 
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto space-y-4 mb-16">
+        <div className="text-center max-w-3xl mx-auto space-y-4">
           <span className="text-xs font-mono font-bold tracking-widest text-[#00D2FF] uppercase bg-[#080A45] px-3 py-1 rounded-full border border-[#0878E8]/30 inline-flex items-center gap-1.5">
             <Activity className="w-3.5 h-3.5 text-[#00D2FF]" />
             AMBIENTE PRESENCIAL EM LUANDA
@@ -48,9 +50,44 @@ export default function Lab() {
           <h2 className="font-heading font-extrabold text-3xl sm:text-5xl text-white tracking-tight">
             A TECNOLOGIA GANHA VIDA NO LABORATÓRIO.
           </h2>
-          <p className="text-slate-300 text-base sm:text-lg">
+          <p className="text-slate-300 text-base sm:text-lg leading-relaxed">
             "Quanto mais próximo da realidade for o ambiente de aprendizagem, maior é a oportunidade de transformar conhecimento em prática."
           </p>
+        </div>
+
+        {/* Real Lab Photo Gallery */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {siteConfig.labPhotos.map((photo, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: idx * 0.1 }}
+              viewport={{ once: true }}
+              className="bg-[#0A102A] border border-[#1E295D] rounded-2xl overflow-hidden hover:border-[#0878E8] transition-all group"
+            >
+              <div className="relative h-60 sm:h-72 w-full overflow-hidden">
+                <Image
+                  src={photo.src}
+                  alt={photo.title}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#00081B] via-transparent to-transparent opacity-90" />
+                <div className="absolute bottom-4 left-4 right-4">
+                  <span className="text-[10px] font-mono font-bold uppercase text-[#00D2FF] bg-[#00081B]/80 px-2.5 py-0.5 rounded border border-[#0878E8]/40 inline-block mb-1">
+                    NELBANZ • Luanda Lab
+                  </span>
+                  <h3 className="font-heading font-bold text-lg text-white">
+                    {photo.title}
+                  </h3>
+                  <p className="text-slate-300 text-xs font-mono mt-1">
+                    {photo.description}
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          ))}
         </div>
 
         {/* Lab Bench Visual Showcase */}
@@ -98,7 +135,7 @@ export default function Lab() {
                     <h3 className="font-heading font-bold text-lg text-white mb-2">
                       {item.title}
                     </h3>
-                    <p className="text-slate-400 text-xs leading-relaxed">
+                    <p className="text-slate-300 text-xs leading-relaxed">
                       {item.desc}
                     </p>
                   </div>
